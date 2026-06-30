@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Intro Page</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
     <body>
-        <h1>test</h1>
+        <h1>tests: <span id="counter">0</span></h1>
+        <p class="counterText">
+            Counter: <span class="counterNum">0</span>/sec
+        </p>
+        <button class="updateBtn" id="button1">
+            Increase increment! (Cost: <span class="cost"> </span>) Level: <span class="level"></span> Amount Added: <span class="amount_total"></span> Next increase: <span class="next_inc"></span>
+        </button>
+        <button class="updateBtn" id="button2">
+            Increase increment! (Cost: <span class="cost"> </span>) Level: <span class="level"></span> Amount Added: <span class="amount_total"></span> Next increase: <span class="next_inc"></span>
+        </button>
+        <script type="module" src="./scripts/main.js"></script>
+        <script type="module" src="./scripts/button.js"></script>
     </body>
 </html>

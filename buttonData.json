@@ -1,0 +1,14 @@
+{
+    "button1": {
+        "amount": 1,
+        "total": 0,
+        "level": 0,
+        "cost": 10
+    },
+    "button2": {
+        "amount": 50,
+        "total": 0,
+        "level": 0,
+        "cost": 1200
+    }
+}
